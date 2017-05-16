@@ -161,6 +161,7 @@ GEM
       mimemagic (= 0.3.0)
     parser (2.3.1.4)
       ast (~> 2.2)
+    pg (0.20.0)
     powerpack (0.1.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -279,6 +280,7 @@ DEPENDENCIES
   RedCloth
   aasm
   actionpack-xml_parser (>= 1.0.1)
+  activesupport
   acts_as_list
   aruba (>= 0.5.4)
   bcrypt (~> 3.1.7)
@@ -298,6 +300,7 @@ DEPENDENCIES
   mocha
   mysql2 (~> 0.3.17)
   paperclip
+  pg
   pry
   rack-dev-mark
   rack-mini-profiler
